@@ -1,0 +1,48 @@
+body {
+    background-color: blueviolet;
+    color: rgb(218, 66, 238);
+    font-size: 3rem;
+    text-shadow: 2px 2px #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    color: rgb(100, 10, 112);
+}
+.mainContainer {
+    background-color: rgba(245, 245, 245, 0.63);
+    border-radius: 10px;
+    max-width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.todo{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.check {
+    background-image: url('https://www.freeiconspng.com/thumbs/checkmark-png/checkmark-png-5.png');
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+
+.input{
+    width: 60%;
+    font-size: 2rem;
+    color:rgb(218, 66, 238);
+    background-color: rgba(245, 245, 245, 0.63);
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
